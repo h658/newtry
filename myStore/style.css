@@ -1,0 +1,58 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+margin: 0;
+padding: 0;
+}
+
+#header input:focus{
+    box-shadow:0px 0px 10px rgb(114, 99, 99);
+    border:none;
+    outline:none;
+    background:red;
+}
+#header input:focus::placeholder{
+color:rgb(243, 243, 243);
+}
+
+.carousel-item {
+    height: 500px;
+}
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+.imagedetails{
+    position: absolute;
+    top: 75%;
+    right:5%;
+}
+.button{
+    opacity: 30% !important;
+}
+.owl-carousel img{
+    width: 300px !important;
+    height: 200px;
+    filter: opacity(80%);
+}
+.owl-carousel img:hover{
+    filter: opacity(100%);
+}
+
+footer{
+    background-image: linear-gradient(145deg, rgba(245, 178, 77, 0.788),rgba(237, 53, 114, 0.826));
+    padding: 20px;
+}
+#products li{
+    list-style: none;
+}
+#banner{
+    position: relative;
+}
+.owl-carousel img{
+    width: 250px!important;
+}
+table th, td{
+  text-align: center;
+    
+}
